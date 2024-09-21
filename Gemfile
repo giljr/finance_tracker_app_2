@@ -58,3 +58,5 @@ end
 
 gem 'pg'
 gem 'devise'
+# Gemfile
+gem 'dotenv-rails', groups: [:development, :test]

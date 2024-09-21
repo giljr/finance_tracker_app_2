@@ -5,8 +5,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "pages#home"
-  # root 'stocks#index'
-  resources :stocks, only: [:index, :show, :create]
+
+  resources :stocks, only: [:index, :show, :create, :destroy]
   devise_for :users
 
 end

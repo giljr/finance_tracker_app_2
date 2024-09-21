@@ -1,0 +1,118 @@
+git checkout -b addrules_1
+clear
+git pull
+rails s
+rails routes | grep users
+rails routes | grep 'devise/registrations'
+rails routes | grep 'devise/sessions'
+rails s
+clear
+rails c
+touch app/views/pages/gravatar_test.html.erb
+rails s
+clear
+rails generate migration AddNameToUsers name:string
+rails db:migrate
+rails s
+clear
+rails generate devise:views
+cd Documents/
+ls
+mkdir finance_tracker_app
+cd finance_tracker_app/
+touch .env
+code .
+sudo apt-get update
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo apt-get update
+clear
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+cd Downloads/
+clear
+sudo apt-get update
+cd
+rails new finance_tracker_app_2
+bundle install
+ls
+cd finance_tracker_app_2/
+bundle install
+sudo -i -u postgres
+clear
+touch scripts/setup_db.sh
+mkdir scripts
+cd scripts/
+touch setup_db.sh
+ls
+cd ..
+clear
+chmod +x scripts/setup_postgres.sh
+clear
+chmod +x ./scripts/setup_postgres.sh
+chmod +x ./scripts/setup_db.sh
+./scripts/setup_postgres.sh
+./scripts/setup_db.sh
+sudo nano /etc/postgresql/<version>/main/pg_hba.conf
+psql --version
+sudo nano /etc/postgresql/16/main/pg_hba.conf
+sudo service postgresql restart
+docker compose up -d
+psql --version
+./scripts/setup_db.sh
+sudo -i -u postgres
+psql
+sudo nano /etc/postgresql/16/main/pg_hba.conf
+rails db:create
+rails generate devise:install
+rails generate devise User
+rails db:migrate
+rails generate devise:views
+rails generate model Stock ticker:string name:string last_price:decimal
+rails generate controller Stocks
+rails g controller pages home about
+rails db:migrate
+rails server
+lsof -i :3000
+cd finance_tracker_app/
+cd finance_tracker_app_2/
+ls
+rails s
+rails db:drop
+rails db:migrate
+rails s
+netstat -tuln | grep :3000
+lsof -i :3000
+rails s
+rails db:migrate
+rails db:create
+rails db:migrate
+rails s
+history > history_docker.txt
+rails s
+touch .env
+bundle install
+clear
+rails:db create
+rails db:migrate
+rails s
+telnet smtp.gmail.com 587
+rails s
+rails g mailer UserMailer
+rails s
+clear
+rm app/mailers/user_mailer.rb
+rm -r app/views/user_mailer
+rm test/mailers/previews/user_mailer_preview.rb
+rm spec/mailers/user_mailer_spec.rb
+rails db:migrate
+rails s
+clear
+git checkout main
+git merge addrules_1
+git push origin main
+clear
