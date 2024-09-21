@@ -39,7 +39,7 @@ I'm a Full Stack Developer with a degree in Computer Engineering. You can explor
 
 ## Episodes
 
-👉 [v1](/) # **[Finance Tracker Epi 1](https://medium.com/jungletronics/new-finance-tracker-rails-app-c9dae81033a2)**- Build a Rails app with Bootstrap 5 via CDN, without Sprockets, Webpacker, Yarn, or npm 
+👉 [v1](/) # **[Finance Tracker Epi 1](https://medium.com/jungletronics/new-finance-tracker-rails-app-c9dae81033a2)**- Build a Rails app with Bootstrap 5 via CDN, without Sprockets, Webpacker, Yarn, or npm.
 
 👉 [v2](/) # **[Finance Tracker Epi 2](https://medium.com/jungletronics/new-finance-tracker-rails-app-99ad85b5f721)** - Bootstrap 5 compatibility, Add Gravatar service, Implement “Forgot your password?” & much more.
 
