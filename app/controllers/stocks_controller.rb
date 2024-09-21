@@ -42,20 +42,6 @@ class StocksController < ApplicationController
     redirect_to stocks_path
   end
 
-  def search
-    if params[:stock].present?
-      @stock = Stock.new_lookup(params[:stock])
-      if @stock
-        render 'users/my_portfolio'
-      else
-        flash[:alert] = "Please enter a valid currency quotation symbol."
-        redirect_to my_portfolio_path
-      end
-    else
-      flash[:alert] = "Please enter a currency quotation symbol."
-      redirect_to my_portfolio_path
-    end
-  end
 
   private
 
