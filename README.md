@@ -25,6 +25,7 @@ Thanks for stopping by!
 
  - [ Jeovan Farias](https://www.linkedin.com/in/jeovan-f-6283b8145/)
  - [Bruno Vichinheski](https://www.linkedin.com/in/brunovichinheski/)
+ - [Robson Cavalcante](https://www.linkedin.com/in/robson-machado-cavalcante/)
 
 ## Authors
 
@@ -42,14 +43,11 @@ I'm a Full Stack Developer with a degree in Computer Engineering. You can explor
 
 👉 [v2](/) # **[Finance Tracker Epi 2](https://medium.com/jungletronics/new-finance-tracker-rails-app-99ad85b5f721)** - Bootstrap 5 compatibility, Add Gravatar service, Implement “Forgot your password?” & much more.
 
-👉 [v3](/) # []()
 
-👉 [v4](/) # []()
-
+👉 [v3](/) # **[Finance Tracker Epi 3](https://medium.com/jungletronics/new-finance-tracker-rails-app-d423bce93828)** - Exploring the Currency Exchange API.
 
 
-
-    
+   
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

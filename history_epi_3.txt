@@ -1,0 +1,90 @@
+rails c
+require 'net/http'
+require 'json'
+uri = URI.parse("https://economia.awesomeapi.com.br/last/USD-BRL")
+response = Net::HTTP.get_response(uri)
+# Parse the JSON response
+data = JSON.parse(response.body)
+# Access the USD-BRL key
+exchange_data = data["USDBRL"]
+puts exchange_data
+clear
+rails c
+uri = URI.parse("https://economia.awesomeapi.com.br/last/USD-BRL")
+rails c
+rails generate model UserStock user:references stock:references
+rails db:migrate
+rails c
+rails s
+clear
+rails s
+rails db:drop
+rails db:migrate
+rails db:create
+rails db:migrate
+rails s
+clear
+rails s
+git pull
+clear
+rails c
+clear
+rails s
+rails db:drop
+rails db:create
+rails s
+clear
+rails s
+rails db:drop
+rails db:create
+rails s
+rails db:migrate
+rails s
+clear
+rails generate migration AddNewlyAddedToStocks newly_added:boolean
+rails db:migrate
+rails s
+rails db:drop
+rails db:create
+rails db:migrate
+rails s
+rails c
+rails generate migration AddNewlyAddedToStocks newly_added:boolean, default: false
+rails c
+rails dasdaadadasdasdasdasas
+rails srails db:rollback STEP=1 # This rolls back the last migration
+rails db:migrate         # Re-applies the modified migration
+rails db:rollback STEP=1 # This rolls back the last migration
+rails db:migrate         # Re-applies the modified migration
+rails db:rollback STEP=1 # This rolls back the last migration
+rails db:migrate         # Re-applies the modified migration
+rails s
+rails c
+cleaclear
+clear
+lspp
+clear
+rails generate migration ChangeNewlyAddedDefaultInStocks
+rails db:migrate
+rails c
+rails db:migrate:status
+rails db:migrate
+rails db:rollback STEP=1 # This rolls back the last migration
+rails db:migrate
+rails c
+rails db:drop
+rails db:create
+rails db:migrate
+touch .env
+bundle install
+sudo bundle install
+bundle install
+clear
+rails s
+rails c
+rails s
+rails db:drop
+rails db:create
+rails db:migrate
+rails s
+history
